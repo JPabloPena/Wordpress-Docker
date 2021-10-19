@@ -69,4 +69,4 @@ Dirección IP: 35.232.147.128
 - https://labarta.es/instalar-wordpress-mysql-nginx-y-ssl-con-docker-compose/
 - https://www.youtube.com/watch?v=N3xWxZt8x2s&list=PLxiktXxIte0tbF1UXLAAGk-1vyssaU4dd&index=36&t=53s
 - https://www.youtube.com/watch?v=KB2ZK6gmHN4&list=PLxiktXxIte0tbF1UXLAAGk-1vyssaU4dd&index=35&t=578s
-      
+- https://cloud.google.com/filestore/docs/quickstart-console      
