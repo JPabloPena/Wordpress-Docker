@@ -34,7 +34,7 @@ services:
       - TZ=America/Bogota
       - URL=proyectos-eafit.tk  
       - SUBDOMAINS=www,    
-      - EMAIL=jpablopena8spm@gmail.com 
+      - EMAIL=jpablopena@gmail.com 
       - VALIDATION=http
       - STAGING=false 
       
