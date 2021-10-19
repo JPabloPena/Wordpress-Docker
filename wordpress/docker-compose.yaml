@@ -32,7 +32,7 @@ services:
       - PUID=1000
       - PGID=1000
       - TZ=America/Bogota
-      - URL=proyectos-eafit.tk  
+      - URL=proyectos-eafit.ml
       - SUBDOMAINS=www,    
       - EMAIL=jpablopena8spm@gmail.com 
       - VALIDATION=http
