@@ -31,7 +31,7 @@ Página web _Wordpress_ en _Docker_ con certificado _SSL_ haciendo uso de _NGINX
 4. Se creó una instancia con la imagen _"Amazon Linux 2 AMI (HVM), SSD Volume Type"_.
 5. Se siguió el tutorial del profesor Edwin Montoya para desplegar la aplicación: https://github.com/st0263eafit/st026320212/tree/main/docker-nginx-wordpress-ssl-letsencrypt
 
-__NOTA:__ Se intentó realizar el _Laboratorio-EFS-AutoScaling_ que dejó el profesor, pero no se logró terminar debido a un error que se presentaba a la hora de crear un _NAT Gateway_.
+__Nota:__ Se intentó realizar el _Laboratorio-EFS-AutoScaling_ que dejó el profesor, pero no se logró terminar debido a un error que se presentaba a la hora de crear un _NAT Gateway_.
 
 
 # Instalación
@@ -113,6 +113,7 @@ Se siguió el tutorial del profesor Edwin Montoya para desplegar la aplicación:
 Para acceder solo debe ingresar a alguno de los siguientes enlaces:
 
 https://proyectos-eafit.tk/
+
 https://35.238.91.131/
 
 # Cibergrafías
