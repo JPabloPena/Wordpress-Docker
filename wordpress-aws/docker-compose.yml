@@ -1,6 +1,5 @@
 version: '3.1'
 services:
-
   nginx:
     container_name: nginx
     image: nginx
@@ -13,7 +12,6 @@ services:
     - 443:443
     depends_on:
     - wordpress
-
   wordpress:
     container_name: wordpress
     image: wordpress
@@ -25,8 +23,7 @@ services:
       WORDPRESS_DB_NAME: exampledb
     volumes:
       - wordpress:/var/www/html
-
-   db:
+  db:
     image: mysql:5.7
     restart: always
     environment:
@@ -36,7 +33,6 @@ services:
       MYSQL_RANDOM_ROOT_PASSWORD: '1'
     volumes:
       - db:/var/lib/mysql
-      
 volumes:
   wordpress:
   db:
