@@ -9,7 +9,7 @@ services:
     stdin_open: true
     tty: true
     volumes:
-      - /src:/var/www/html
+      - /mnt/wp:/var/www/html
     env_file: .env
     environment:
       WORDPRESS_DB_HOST: ${MYSQL_HOST}
