@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+
+  wordpress:
+    image: wordpress
+    restart: always
+    container_name: wordpress
+    # You can uncomment these ligns to test the wordpress without haproxy
+    # ports:
+    #   - 8080:80
+    env_file: .env
+    environment:
+      WORDPRESS_DB_HOST: ${MYSQL_HOST}
+      WORDPRESS_DB_USER: ${MYSQL_USER}
+      WORDPRESS_DB_PASSWORD: ${MYSQL_PASSWORD}
+      WORDPRESS_DB_NAME: ${MYSQL_DATABASE}
+    volumes:
+      - mnt/wp:/var/www/html
+    networks:
+      - proxy
+
+networks:
+  proxy:
+    external: true
+    name: proxy
