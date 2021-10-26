@@ -121,3 +121,4 @@ https://35.238.91.131/
 - https://www.youtube.com/watch?v=N3xWxZt8x2s&list=PLxiktXxIte0tbF1UXLAAGk-1vyssaU4dd&index=36&t=53s
 - https://cloud.google.com/filestore/docs/quickstart-console
 - https://github.com/st0263eafit/st026320212/tree/main/docker-nginx-wordpress-ssl-letsencrypt
+- https://www.youtube.com/watch?v=7ljiOD6MbLA
