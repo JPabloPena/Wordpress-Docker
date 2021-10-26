@@ -27,4 +27,5 @@ services:
       - wordpress:/var/www/html
 
 volumes:
+  nginx:
   wordpress:
